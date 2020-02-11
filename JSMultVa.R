@@ -1,3 +1,8 @@
+#multiple circular regression
+#coded by zuhaili
+
+
+#One dependent and 4 independent variable
 estJS4=function(u1,u2,u3,u4,v){
   
   
@@ -78,7 +83,7 @@ estJS4=function(u1,u2,u3,u4,v){
 
 ##############################################################
 
-
+#One dependent and 3 independent variable
 estJS3=function(u1,u2,u3,v){
   
   
@@ -142,6 +147,9 @@ estJS3=function(u1,u2,u3,v){
 }	
 
 ##############################################################
+
+
+#One dependent and 2 independent variable
 #estJS2(u1,u2,v)
 
 estJS2=function(u1,u2,v){
@@ -194,7 +202,7 @@ estJS2=function(u1,u2,v){
 
 ############################################################
 
-
+#One dependent and 1 independent variable
 estJS1=function(u1,v){
   
   L1=circ.reg(u1,v)$coef
